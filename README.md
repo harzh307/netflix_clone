@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+<!-- TMDB APIKEY:- 7d28c70163665beac50440c10c5724dd -->
 ### `npm start`
 
 # Harsh Patel changes again
