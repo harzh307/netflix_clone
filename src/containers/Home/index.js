@@ -10,7 +10,7 @@ const Home = () => {
     <div className="main">
       <NavBar />
       <Banner />
-      <div className="absolute bg-transparent top-2/4">
+      <div className="absolute bg-transparent top-2/3">
         <Carusel
           isLargeRow
           title="NETFLIX ORIGINALS"
