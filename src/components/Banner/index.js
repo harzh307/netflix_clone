@@ -42,18 +42,43 @@ const Banner = ({ children }) => {
           scrollPos > 200 && "opacity-80"
         } `}
       />
+      {/*
+       */}
       <div
-        className={`p-10 pt-20 font-bold transform duration-300 ${
-          scrollPos > 150 && "opacity-0"
-        }`}
+        className={`p-10 pt-20 font-bold transform duration-300 h-4/6 flex flex-col justify-evenly
+        ${scrollPos > 150 && "opacity-0"}`}
       >
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-6xl font-bold">
           {movie?.original_name || movie?.title || movie?.name}
         </h1>
         {/* bg image */}
-        <h2 className="font-semibold text-xl mt-10 max-w-4xl ">
+        <h2 className="font-semibold text-xl max-w-4xl leading-8 truncate">
           {movie?.overview}
         </h2>
+        <div>
+          <button
+            style={{
+              backgroundColor: "#fff",
+              color: "#000",
+              borderRadius: "5px",
+              fontWeight: "bold",
+              padding: "5px 25px",
+            }}
+          >
+            Play
+          </button>
+          <button
+            style={{
+              backgroundColor: "#999",
+              opacity: 0.8,
+              padding: "5px 25px",
+              borderRadius: "5px",
+              marginLeft: "5px",
+            }}
+          >
+            More Info
+          </button>
+        </div>
         {/* title */}
         {/* div > 2 buttons */}
         {/* description */}
