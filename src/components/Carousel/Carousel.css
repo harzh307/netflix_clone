@@ -5,5 +5,5 @@
   @apply text-white bg-transparent w-11/12 m-auto overflow-y-hidden font-bold;
 }
 .row_div {
-  @apply flex gap-2 bg-transparent py-6 px-3 overflow-scroll;
+  @apply flex gap-2 bg-transparent py-6 px-3 overflow-scroll justify-start align-baseline;
 }

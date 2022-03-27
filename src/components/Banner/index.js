@@ -29,7 +29,7 @@ const Banner = ({ children }) => {
 
   return (
     <header
-      className={`text-white object-contain h-screen  fixed bg-transparent w-full`}
+      className={`text-white object-contain h-screen fixed bg-transparent w-full`}
       style={{
         backgroundSize: "cover",
         backgroundImage: `url(${base_url}${movie?.backdrop_path})`,
